@@ -76,7 +76,8 @@ class SiteController extends Controller
         return $this->render(
             'index.tpl',
             [
-                'welcome' => Yii::t('messages', 'welcome', $language='es')
+                'welcome'   =>  Yii::t('messages', 'welcome', $language='es'),
+                'title'     =>  Yii::t('app', 'index_title')
             ]
         );
     }

@@ -1,1 +1,3 @@
-<h1>{$welcome}</h1>
+{title}{$title}{/title}
+
+<h1 class="roboto-thin">{$welcome}</h1>

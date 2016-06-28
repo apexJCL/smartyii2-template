@@ -8,9 +8,9 @@ class MaterializeAsset extends AssetBundle{
     public $sourcePath = '@bower/materialize/dist';
     public $publishOptions = [
         'only' => [
-            'css/*',
-            'fonts/*',
-            'js/*'
+            'css/*.min.css',
+            'fonts/roboto/*',
+            'js/*.min.js'
         ]
     ];
     public $css = [
