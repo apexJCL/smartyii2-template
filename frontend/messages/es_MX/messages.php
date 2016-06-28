@@ -17,5 +17,6 @@
  * NOTE: this file must be saved in UTF-8 encoding.
  */
 return [
+    'contact_description' => 'Si tiene alguna duda, no deje que contactarnos sea una más.',
     'welcome' => 'Bienvenido a nombre del sitio',
 ];

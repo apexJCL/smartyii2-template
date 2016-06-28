@@ -17,12 +17,18 @@
  * NOTE: this file must be saved in UTF-8 encoding.
  */
 return [
-    'about' => 'Acerca de',
+    'footer_contact' => 'Contáctanos',
     'footer_description' => 'Aquí va la descripción en español',
     'footer_links' => 'Enlaces',
+    'footer_more_links' => 'Más enlaces',
     'footer_title' => 'Título de la página',
-    'home' => 'Inicio',
+    'header_about' => 'Acerca de',
+    'header_home' => 'Inicio',
+    'header_login' => 'Inicia Sesión',
+    'header_sign_up' => 'Regístrate',
+    'index_contact_title' => 'Contacto',
+    'index_login_title' => 'Inicia Sesión',
     'index_title' => 'Inicio',
-    'login' => 'Inicia sesión',
-    'sign_up' => 'Regístrate',
+    'reset_message' => 'Si olvidaste o perdiste tu contraseña',
+    'reset_password_link' => 'reiníciala',
 ];

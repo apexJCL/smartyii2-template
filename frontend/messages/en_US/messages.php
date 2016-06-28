@@ -17,5 +17,6 @@
  * NOTE: this file must be saved in UTF-8 encoding.
  */
 return [
-    'welcome' => "Welcome to website's name",
+    'contact_description' => "If you have any doubt, don't let contacting us be one",
+    'welcome' => 'Welcome to website\'s name',
 ];

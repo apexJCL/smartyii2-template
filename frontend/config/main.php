@@ -34,6 +34,11 @@ return [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                '/'         =>   'site/index',
+                'signup'    =>   'site/signup',
+                'login'     =>   'site/login',
+                'about'     =>   'site/about',
+                'contact'   =>   'site/contact',
             ],
         ],
         'i18n' => [

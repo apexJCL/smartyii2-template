@@ -17,12 +17,18 @@
  * NOTE: this file must be saved in UTF-8 encoding.
  */
 return [
-    'about' => 'About',
+    'footer_contact' => 'Contact Us',
     'footer_description' => 'Here goes your description in english',
     'footer_links' => 'Other links',
+    'footer_more_links' => 'More Links',
     'footer_title' => 'Website name',
-    'home' => 'Home',
+    'header_about' => 'About',
+    'header_home' => 'Home',
+    'header_login' => 'Login',
+    'header_sign_up' => 'Sign Up',
+    'index_contact_title' => 'Contact Us',
+    'index_login_title' => 'Log In',
     'index_title' => 'Home',
-    'login' => 'Login',
-    'sign_up' => 'Sign Up',
+    'reset_message' => 'If you lost or forgot your password',
+    'reset_password_link' => 'reset it',
 ];
