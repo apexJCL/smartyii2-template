@@ -25,7 +25,16 @@ AppAsset::register($this);
 <body>
 <?php $this->beginBody() ?>
 
-<?= $this->render('_header.tpl') ?>
+<!-- It renders the header/navbar  -->
+<?= $this->render(
+    '_header.tpl',
+    [ // smarty variables
+        'home'      =>  Yii::t('app', 'home'),
+        'about'     =>  Yii::t('app', 'about'),
+        'sign_up'   =>  Yii::t('app', 'sign_up'),
+        'login'     =>  Yii::t('app', 'login')
+    ]
+) ?>
 
 <main class="container">
     <?= Breadcrumbs::widget([
@@ -35,7 +44,14 @@ AppAsset::register($this);
     <?= $content ?>
 </main>
 
-<?= $this->render('_footer.tpl') ?>
+<?= $this->render(
+    '_footer.tpl',
+    [ // smarty variables
+        'footer_title'          =>  Yii::t('app', 'footer_title'),
+        'footer_links'          =>  Yii::t('app', 'footer_links'),
+        'footer_description'    =>  Yii::t('app', 'footer_description')
+    ]
+) ?>
 
 <?php $this->endBody() ?>
 </body>

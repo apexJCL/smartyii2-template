@@ -8,7 +8,7 @@ $params = array_merge(
 
 return [
     'language' => 'es_MX',
-    'sourceLanguage' => 'en-US',
+    'sourceLanguage' => 'en_US',
     'id' => 'app-frontend',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],

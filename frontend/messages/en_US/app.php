@@ -17,5 +17,12 @@
  * NOTE: this file must be saved in UTF-8 encoding.
  */
 return [
+    'about' => 'About',
+    'footer_description' => 'Here goes your description in english',
+    'footer_links' => 'Other links',
+    'footer_title' => 'Website name',
+    'home' => 'Home',
     'index_title' => 'Home',
+    'login' => 'Login',
+    'sign_up' => 'Sign Up',
 ];

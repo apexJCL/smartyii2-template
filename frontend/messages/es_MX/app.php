@@ -17,5 +17,12 @@
  * NOTE: this file must be saved in UTF-8 encoding.
  */
 return [
+    'about' => 'Acerca de',
+    'footer_description' => 'Aquí va la descripción en español',
+    'footer_links' => 'Enlaces',
+    'footer_title' => 'Título de la página',
+    'home' => 'Inicio',
     'index_title' => 'Inicio',
+    'login' => 'Inicia sesión',
+    'sign_up' => 'Regístrate',
 ];

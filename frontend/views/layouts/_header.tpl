@@ -2,10 +2,12 @@
     <div class="navbar-fixed">
         <nav class="black">
             <div class="nav-wrapper">
-                <a href="#!" class="brand-logo">Logo</a>
+                <a href="{url route='site/index'}" class="brand-logo">Logo</a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="sass.html">Sass</a></li>
-                    <li><a href="badges.html">Components</a></li>
+                    <li><a href="#">{$home}</a></li>
+                    <li><a href="#">{$about}</a></li>
+                    <li><a href="#">{$sign_up}</a></li>
+                    <li><a href="#">{$login}</a></li>
                 </ul>
             </div>
         </nav>
