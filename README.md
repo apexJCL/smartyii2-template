@@ -6,3 +6,11 @@ This template has the next configuration:
 - i18n enabled
 
 As features are added, the previous list will be updated.
+
+## Installing
+
+Clone this repo, then execute:
+```bash
+$ ./init
+$ composer update
+```
