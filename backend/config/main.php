@@ -8,6 +8,8 @@ $params = array_merge(
 
 return [
     'id' => 'app-backend',
+    'language' => 'es_MX',
+    'sourceLanguage' => 'en_US',
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
@@ -29,14 +31,29 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-        /*
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                '/' => 'site/login'
             ],
         ],
-        */
+        'i18n' => [
+            'translations' => [
+                'backend*' => [
+                    'class' => 'yii\i18n\PhpMessageSource',
+                    //'basePath' => '@app/messages',
+                    'fileMap' => [
+                        'messages' => 'backend_messages.php',
+                        'app' => 'backend_app.php',
+                        'app/error' => 'backend_error.php',
+                    ],
+                ],
+                'on missingTranslation' => [
+                    'app\components\TranslationEventHandler', 'handleMissingTranslation'
+                ],
+            ],
+        ],
     ],
     'params' => $params,
 ];
