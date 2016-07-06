@@ -46,3 +46,8 @@ RewriteCond %{REQUEST_FILENAME} !-d
 
 RewriteRule . index.php
 ```
+4. Ejecutar comandos en raíz para inicializar el entorno y actualizar dependencias (esto sólo si reemplazó el proyecto totalmente, si se realizó un pull, no hace falta)
+````
+init
+composer update
+```
